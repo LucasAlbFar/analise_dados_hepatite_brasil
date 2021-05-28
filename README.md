@@ -59,4 +59,12 @@ Cristiane Bomfim
 Responsáveis por 1,3 milhão de mortes por ano no mundo, segundo estimativa da OMS (Organização Mundial da Saúde), as hepatites virais são inflamações que aos poucos matam as células do fígado e as transformam em cicatrizes que enrijecem o tecido, chamadas de fibrose. Sem apresentar sintomas, a evolução é, na maioria dos casos, silenciosa. Por isso, muitas vezes é descoberta quando está em estágio avançado, já com o comprometimento da função do fígado, cirrose ou mesmo o câncer. E embora os vírus sejam os principais causadores da hepatite, ela também pode ser resultado do uso de substâncias tóxicas (como alguns remédios), exagero no consumo de álcool e doenças autoimunes, genéticas e metabólicas.
 
 ### Tipos de Hepatites:
-<b> Hepatite A </b>
+<b> Hepatite A:</b>
+Com transmissão fecal-oral, a doença tem grande relação com alimentos e água contaminados e baixos níveis de saneamento básico e higiene. Não há tratamento específico para este tipo de hepatite, mas desde 2014 o Sistema Único de Saúde (SUS) oferece a vacina para crianças com idade a partir de 12 meses que não tiveram contato com o vírus. Sugere-se que aqueles que ainda não possuam anticorpos contra a hepatite A (sorologia positiva), se vacinem.
+
+<b> Hepatite B:</b>
+classificada como uma infeção sexualmente transmissível, o vírus da Hepatite B (HBV) pode ser adquirido principalmente pelo contato com sangue infectado, sêmen e outros fluidos corporais. Também pode ser transmitido no momento do parto de mães infectadas para bebês ou por meio de transfusões de sangue e agulhas contaminadas no caso de uso de drogas injetáveis ou no momento de produção de tatuagem. Prevista no calendário de vacinação infantil, a vacinação é a principal medida de prevenção contra a hepatite B. Auxiliam na prevenção da doença o sexo seguro, o não compartilhamento de agulhas e objetos pessoais como lâminas de barbear e de depilação.
+
+<b> Hepatite C:</b>
+
+<b> Hepatite D:</b>
