@@ -75,3 +75,4 @@ provocada pelo vírus HDV, ela só acomete pessoas já infectadas pelo vírus do
 - https://datasus.saude.gov.br/informacoes-de-saude-tabnet/
 - https://www.uol.com.br/vivabem/noticias/redacao/2020/09/21/mesmo-sendo-diferentes-hepatites-virais-somam-40-mil-casos-no-brasil.htm
 - https://www.saude.pr.gov.br/Pagina/Hepatites-virais
+- https://www.hcfmb.unesp.br/hepatites-virais-uma-epidemia-silenciosa/
