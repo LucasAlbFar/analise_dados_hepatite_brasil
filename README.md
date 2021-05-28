@@ -1,3 +1,29 @@
+
+## Introdução
+Este projeto tem como objetivo explorar os dados referentes à epidemias que envolvam algum dos tipos de Hepatite no Brasil, entre os anos de 1998 e 2020, perído do qual foi possível encontrar os dados consolidados disponibilizados pelo DATASUS. 
+Visando uma melhor compreensão dos impactos na população e nos gastos com serviços públicos, este projeto visa demonstrar como a Hepatite, uma enfermidade estudada ao longo de décadas e com medidas de prevenção e controle com rigorosas diretrizes, causa transtornos à população e como os órgãos públicos necessitam de constante vigilância para evitar óbitos entre as comunidades menos favorecidas e gastos públicos desenfreados quando o estado falha na educação e prevenção.
+
+-> [Clique aqui para visualizar o Notebook do Projeto Final](hhttps://github.com/LucasAlbFar/analise_dados_hepatite_brasil/blob/main/notebooks/main.ipynb) <-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Análise de dados sobre hepatite no Brasil, entre os anos de 1998 e 2020
 
 * doses_aplicadas_por_ano_1994_2021.csv
