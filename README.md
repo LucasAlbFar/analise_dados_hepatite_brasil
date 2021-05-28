@@ -58,3 +58,5 @@ Cristiane Bomfim
 
 Responsáveis por 1,3 milhão de mortes por ano no mundo, segundo estimativa da OMS (Organização Mundial da Saúde), as hepatites virais são inflamações que aos poucos matam as células do fígado e as transformam em cicatrizes que enrijecem o tecido, chamadas de fibrose. Sem apresentar sintomas, a evolução é, na maioria dos casos, silenciosa. Por isso, muitas vezes é descoberta quando está em estágio avançado, já com o comprometimento da função do fígado, cirrose ou mesmo o câncer. E embora os vírus sejam os principais causadores da hepatite, ela também pode ser resultado do uso de substâncias tóxicas (como alguns remédios), exagero no consumo de álcool e doenças autoimunes, genéticas e metabólicas.
 
+### Tipos de Hepatites:
+
