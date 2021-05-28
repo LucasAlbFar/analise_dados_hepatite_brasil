@@ -1,5 +1,6 @@
 
-# Análise de dados sobre hepatite no Brasil, entre os anos de 1998 e 2020
+# Análise Hepatite no Brasil (1998 à 2020)
+
 
 ## Introdução
 Este projeto propõe realizar uma análise exploratória dos dados relacionados com os vários tipos de hepatites, como óbitos, vacinação e gastos em hospitaos da rede pública de saúde em caso de óbitos decorrentes desta enfermidade, além de relacionar os dados de tamanho da poupução brasieira ao longo do período estudado. Todos os dados foram extraídos do sistema TABNET/DATASUS diponibilizado pelo Governo Federal.
@@ -10,7 +11,25 @@ Este projeto propõe realizar uma análise exploratória dos dados relacionados 
 Este projeto tem como objetivo explorar os dados referentes à epidemias que envolvam algum dos tipos de Hepatite no Brasil, entre os anos de 1998 e 2020, perído do qual foi possível encontrar os dados consolidados disponibilizados pelo DATASUS. 
 Visando uma melhor compreensão dos impactos na população e nos gastos com serviços públicos, este projeto visa demonstrar como a Hepatite, uma enfermidade estudada ao longo de décadas e com medidas de prevenção e controle com rigorosas diretrizes, causa transtornos à população e como os órgãos públicos necessitam de constante vigilância para evitar óbitos entre as comunidades menos favorecidas e gastos públicos desenfreados quando o estado falha na educação e prevenção.
 
+## Planejamento do Projeto
 
+Para a realização do projeto, seguirei o seguinte planejamento :
+
+<b> 1.</b> Definição do Problema de Negócio </br>
+<b> 2.</b> Preparação dos Dados </br>
+<b> 3.</b> Análise Exploratória dos Dados </br>
+<b> 4.</b> Criação do Modelo de Machine Learning </br>
+<b> 5.</b> Otimização do Modelo de Machine Learning </br>
+<b> 6.</b> Apresentação do Resultado </br>
+
+## Dados Utilizados no Projeto
+
+Para o projeto, iremos utilizar duas bases de dados, que são :
+
+- dados_experimentos.zip : Dados com os valores de expressão gênica, viabilidade celular, tratamento, dose, tempo para os diferentes experimentos.
+- dados_resultados.csv   : Dados com os valores de ativação ou não do Mecanismo de Ação.
+
+-> [Clique aqui para verificar os dados](https://github.com/gustavolq/Imersao-Dados-Alura/tree/main/Dados) <-
 
 
 
