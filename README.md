@@ -24,12 +24,12 @@ Para a realização do projeto, seguirei o seguinte planejamento :
 
 ## Dados Utilizados no Projeto
 
-Para o projeto, iremos utilizar duas bases de dados, que são :
+Abaixo estão os dados utilizados para a análise da hepatite no Brasil:
 
 - dados_experimentos.zip : Dados com os valores de expressão gênica, viabilidade celular, tratamento, dose, tempo para os diferentes experimentos.
 - dados_resultados.csv   : Dados com os valores de ativação ou não do Mecanismo de Ação.
 
--> [Clique aqui para verificar os dados](https://github.com/gustavolq/Imersao-Dados-Alura/tree/main/Dados) <-
+-> [Clique aqui para verificar os dados](https://github.com/LucasAlbFar/analise_dados_hepatite_brasil/tree/main/dados) <-
 
 
 
