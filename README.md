@@ -1,8 +1,10 @@
 
+# Análise de dados sobre hepatite no Brasil, entre os anos de 1998 e 2020
+
 ## Introdução
 Este projeto propõe realizar uma análise exploratória dos dados relacionados com os vários tipos de hepatites, como óbitos, vacinação e gastos em hospitaos da rede pública de saúde em caso de óbitos decorrentes desta enfermidade, além de relacionar os dados de tamanho da poupução brasieira ao longo do período estudado. Todos os dados foram extraídos do sistema TABNET/DATASUS diponibilizado pelo Governo Federal.
 
--> [Clique aqui para visualizar o Notebook do Projeto Final](https://github.com/gustavolq/Imersao-Dados-Alura/blob/main/Projeto-Final/MoA_Prediction.ipynb) <-
+-> [Clique aqui para visualizar o Notebook do Projeto Final](https://github.com/LucasAlbFar/analise_dados_hepatite_brasil/blob/main/notebooks/main.ipynb) <-
 
 ## Escopo do Projeto
 Este projeto tem como objetivo explorar os dados referentes à epidemias que envolvam algum dos tipos de Hepatite no Brasil, entre os anos de 1998 e 2020, perído do qual foi possível encontrar os dados consolidados disponibilizados pelo DATASUS. 
