@@ -11,22 +11,15 @@ Este projeto propõe realizar uma análise exploratória dos dados relacionados 
 Este projeto tem como objetivo explorar os dados referentes à epidemias que envolvam algum dos tipos de Hepatite no Brasil, entre os anos de 1998 e 2020, perído do qual foi possível encontrar os dados consolidados disponibilizados pelo DATASUS. 
 Visando uma melhor compreensão dos impactos na população e nos gastos com serviços públicos, este projeto visa demonstrar como a Hepatite, uma enfermidade estudada ao longo de décadas e com medidas de prevenção e controle com rigorosas diretrizes, causa transtornos à população e como os órgãos públicos necessitam de constante vigilância para evitar óbitos entre as comunidades menos favorecidas e gastos públicos desenfreados quando o estado falha na educação e prevenção.
 
-## Planejamento do Projeto
-
-Para a realização do projeto, seguirei o seguinte planejamento :
-
-<b> 1.</b> Definição do Problema de Negócio </br>
-<b> 2.</b> Preparação dos Dados </br>
-<b> 3.</b> Análise Exploratória dos Dados </br>
-<b> 4.</b> Criação do Modelo de Machine Learning </br>
-<b> 5.</b> Otimização do Modelo de Machine Learning </br>
-<b> 6.</b> Apresentação do Resultado </br>
-
 ## Dados Utilizados no Projeto
 
 Abaixo estão os dados utilizados para a análise da hepatite no Brasil:
 
-- dados_experimentos.zip : Dados com os valores de expressão gênica, viabilidade celular, tratamento, dose, tempo para os diferentes experimentos.
+- doses_aplicadas_por_ano_1994_2021.csv: 
+  Doses_aplicadas por Ano segundo Unidade da Federação
+  Imunobiológicos: Hepatite A (HA) , Hepatite B (HB) , Hepatite B não soroconversão , HEPATITE A, B RECOMBINANTE
+  Ano: 1994-2021
+
 - dados_resultados.csv   : Dados com os valores de ativação ou não do Mecanismo de Ação.
 
 -> [Clique aqui para verificar os dados](https://github.com/LucasAlbFar/analise_dados_hepatite_brasil/tree/main/dados) <-
@@ -50,7 +43,7 @@ Abaixo estão os dados utilizados para a análise da hepatite no Brasil:
 
 # Análise de dados sobre hepatite no Brasil, entre os anos de 1998 e 2020
 
-* doses_aplicadas_por_ano_1994_2021.csv
+* 
 >Imunizações - Doses Aplicadas - Brasil
 Doses_aplicadas por Ano segundo Unidade da Federação
 Imunobiológicos: Hepatite A (HA) , Hepatite B (HB) , Hepatite B não soroconversão , HEPATITE A, B RECOMBINANTE
