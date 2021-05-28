@@ -72,6 +72,6 @@ As formas mais comum de infecção pelo vírus da Hepatite C (VHC) é a exposiç
 provocada pelo vírus HDV, ela só acomete pessoas já infectadas pelo vírus do tipo B. Por isso, a vacinação contra a hepatite B é uma das formas de prevenção. É considerada a forma mais grave das hepatites virais, pois tem progressão rápida para a cirrose e maior risco de evolução para câncer de fígado. O contágio pode ocorrer por relações sexuais com pessoas infectadas sem uso de preservativo, de mãe para filho na gestação ou no parto, pelo compartilhamento de objetos cortantes e seringas, transfusões de sangue e qualquer outro contato com sangue infectado. O tratamento não cura a doença, mas ajudam no controle dos danos causados por ela ao fígado.
 
 ### Referências:
-https://datasus.saude.gov.br/informacoes-de-saude-tabnet/
-https://www.uol.com.br/vivabem/noticias/redacao/2020/09/21/mesmo-sendo-diferentes-hepatites-virais-somam-40-mil-casos-no-brasil.htm
-https://www.saude.pr.gov.br/Pagina/Hepatites-virais
+- https://datasus.saude.gov.br/informacoes-de-saude-tabnet/
+- https://www.uol.com.br/vivabem/noticias/redacao/2020/09/21/mesmo-sendo-diferentes-hepatites-virais-somam-40-mil-casos-no-brasil.htm
+- https://www.saude.pr.gov.br/Pagina/Hepatites-virais
