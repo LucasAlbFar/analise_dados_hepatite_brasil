@@ -10,34 +10,44 @@ Quando o assunto é imunização, três palavras colocam o Brasil como destaque 
 ## Dados Utilizados
 Abaixo estão os dados utilizados para a análise da cobertura vacinal no Brasil:
 
-*ano_por_capital.csv:
+* ano_por_capital.csv:
 >números da cobertura vacinal nas 27 capitais federais, entre 1994 e 2021;
 
-*ano_por_imuno.csv:
+* ano_por_imuno.csv:
 >números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, entre 1994 e 2021;
 
 
-*ano_por_regiao.csv:
+* ano_por_regiao.csv:
 >números da cobertura vacinal nas cinco regiões geográficas brasileira, entre 1994 e 2021;
-*ano_por_uf.csv:
+
+* ano_por_uf.csv:
 >números da cobertura vacinal nas 27 unidades federativas do Brasil, entre 1994 e 2021;
-*imuno_por_capital.csv:
+
+* imuno_por_capital.csv:
 >números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, de todos os agentes imunulógicos pertencentes ao PNI, entre 1994 e 2021;
-*imuno_por_regiao.csv:
->números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, nas cinco regiões geográficas brasileira;
-*imuno_por_uf.csv:
+
+* imuno_por_regiao.csv:
+>números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, nas cinco regiões geográficas brasileira; 
+
+* imuno_por_uf.csv:
 >números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, nas 27 unidades federativas do Brasil;
-*morbidade_turbeculose_1995_1997_CID09.csv:
+
+* morbidade_turbeculose_1995_1997_CID09.csv:
 >número de óbitos por tuberculose, entre 1995 e 1997, utilizando a Lista Estends CID-9;
-*morbidade_turbeculose_1998_2007_CID10.csv:
+
+* morbidade_turbeculose_1998_2007_CID10.csv:
 >número de óbitos por tuberculose, entre 1998 e 2007, utilizando a Lista Estends CID-10;
-*morbidade_turbeculose_2008_2021_CID10.csv:
->número de óbitos por tuberculose, entre 2008 e 2021, utilizando a Lista Estends CID-10;
-*morbidade_meningite_1995_1997_CID09:
+
+* morbidade_turbeculose_2008_2021_CID10.csv:
+>número de óbitos por tuberculose, entre 2008 e 2021, utilizando a Lista Estends CID-10; 
+
+* morbidade_meningite_1995_1997_CID09:
 >número de óbitos por infecção Meningocócica, entre 1995 e 1997, utilizando a Lista Estends CID-9;
-*morbidade_meningite_1998_2007_CID10.csv:
+
+* morbidade_meningite_1998_2007_CID10.csv:
 >número de óbitos por infecção Meningocócica, entre 1998 e 2007, utilizando a Lista Estends CID-10;
-*morbidade_meningite_2008_2021_CID10.csv:
+
+* morbidade_meningite_2008_2021_CID10.csv:
 >número de óbitos por infecção Meningocócica, entre 2008 e 2021, utilizando a Lista Estends CID-10;
 
 
