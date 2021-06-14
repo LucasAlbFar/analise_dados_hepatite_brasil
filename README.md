@@ -52,15 +52,15 @@ Abaixo estão os dados utilizados para a análise da cobertura vacinal no Brasil
 
 
 ## Hípotese e questões a serem respondidas:
-*A cobertura vacinal ocorre de forma homogênea nas regiões brasileiras?
+* A cobertura vacinal ocorre de forma homogênea nas regiões brasileiras?
 
-*As capitais dos estados brasileiros possuem maior cobertura do seu público alvo comparado com os números do seu Estado e da sua região geográfica?
+* As capitais dos estados brasileiros possuem maior cobertura do seu público alvo comparado com os números do seu Estado e da sua região geográfica?
 
-*Os agentes imunológicos possuem a mesma cobertura vacinal no país?
+* Os agentes imunológicos possuem a mesma cobertura vacinal no país?
 
-*Quais as enfermidades mais atendidas pelo PNI?
+* Quais as enfermidades mais atendidas pelo PNI?
 
-*A efetiva cobertura do público alvo demonstra queda na mortalidade do números pelas doenças alvo dos imunizantes?
+* A efetiva cobertura do público alvo demonstra queda na mortalidade do números pelas doenças alvo dos imunizantes?
 
 ### Conclusão:
 De forma geral, as hipóteses levantadas foram respondias, mostrando que existe um padrão de cobertura entre capitais, estados e regiões, quais os imunos que abrangem a maior parte da população e as enfermidades combatidas mais amplamente. O que podemos tirar de concreto dessa análise é que a cobertura vacinal atinge grande parte do seu público alvo em sua grande maioria, principalmente das vacinas obrigatórias aplicadas aos recém nascidos. O cuidado constante que devemos ter é reforçar a importância da imunização em massa, o combate a desinformação e o acesso ao serviço público de saúde para todos os brasileiros.
