@@ -3,76 +3,65 @@
 
 
 ## Introdução
-Este projeto propõe realizar uma análise exploratória dos dados relacionados com os vários tipos de hepatites, como óbitos, vacinação e gastos em hospitaos da rede pública de saúde em caso de óbitos decorrentes desta enfermidade, além de relacionar os dados de tamanho da poupução brasieira ao longo do período estudado. Todos os dados foram extraídos do sistema TABNET/DATASUS diponibilizado pelo Governo Federal.
+Quando o assunto é imunização, três palavras colocam o Brasil como destaque no cenário internacional: Programa Nacional de Imunizações. Criado em 18 de setembro de 1973, o Brasil passou a investir pesado em saúde com campanhas nacionais de vacinação (voltadas em cada ocasião para diferentes faixas etárias); capacitação e atualização técnico-gerencial para os gestores; vigilância de eventos adversos pós-vacinais e universalidade de atendimento
 
--> [Clique aqui para visualizar o Notebook do Projeto Final](https://github.com/LucasAlbFar/analise_dados_hepatite_brasil/blob/main/notebooks/main.ipynb) <-
-
-## Objetivo do Projeto
-Este projeto tem como objetivo explorar os dados referentes à epidemias que envolvam algum dos tipos de Hepatite no Brasil, entre os anos de 1998 e 2020, perído do qual foi possível encontrar os dados consolidados disponibilizados pelo DATASUS. 
-Visando uma melhor compreensão dos impactos na população e nos gastos com serviços públicos, este projeto visa demonstrar como a Hepatite, uma enfermidade estudada ao longo de décadas e com medidas de prevenção e controle com rigorosas diretrizes, causa transtornos à população e como os órgãos públicos necessitam de constante vigilância para evitar óbitos entre as comunidades menos favorecidas e gastos públicos desenfreados quando o estado falha na educação e prevenção.
+-> [Clique aqui para visualizar o Notebook do Projeto Final](https://github.com/LucasAlbFar/Cobertura_Vacinal_BR/blob/main/notebooks/EDA.ipynb) <-
 
 ## Dados Utilizados
-Abaixo estão os dados utilizados para a análise da hepatite no Brasil:
+Abaixo estão os dados utilizados para a análise da cobertura vacinal no Brasil:
 
-* doses_aplicadas_por_ano_1994_2021.csv
->Imunizações - Doses Aplicadas - Brasil
-Doses_aplicadas por Ano segundo Unidade da Federação
-Imunobiológicos: Hepatite A (HA) , Hepatite B (HB) , Hepatite B não soroconversão , HEPATITE A, B RECOMBINANTE
-Ano: 1994-2021
-
-* valor_total_morbilidade_hospitalar_sus_1995_2007.csv
->Valor Total por Ano processamento segundo Unidade da Federação
-Lista Morb CID-10: Hepatite aguda B, Outras hepatites virais
-Período: 1995-2007
-
-* valor_total_morbilidade_hospitalar_sus_2008_2021.csv
->Valor total por Ano processamento segundo Unidade da Federação
-Lista Morb CID-10: Hepatite aguda B, Outras hepatites virais
-Período: Jan/2008-Mar/2021
-
-* morbilidade_hospitalar_sus_2008_2021.csv
->Óbitos por Ano processamento segundo Unidade da Federação
-Lista Morb CID-10: Hepatite aguda B, Outras hepatites virais
-Período: Jan/2008-Mar/2021
-
-* morbilidade_hospitalar_sus_1995_2007.csv
->Óbitos por Ano processamento segundo Unidade da Federação
-Lista Morb CID-10: Hepatite aguda B, Outras hepatites virais
-Período: 1995-2007
-
-* populaca_residente_1995_2012.csv
->População residente por Ano segundo Unidade da Federação
-Período: 1995-2012
-
-* populaca_residente_2013_2020.csv
->População residente por Ano segundo Unidade da Federação
-Período: 2013-2020
-Estimativas preliminares elaboradas pelo Ministério da Saúde/SVS/DASNT/CGIAE
-
--> [Clique aqui para verificar os dados](https://github.com/LucasAlbFar/analise_dados_hepatite_brasil/tree/main/dados) <-
+*ano_por_capital.csv:
+>números da cobertura vacinal nas 27 capitais federais, entre 1994 e 2021;
+*ano_por_imuno.csv:
+>números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, entre 1994 e 2021;
+*ano_por_regiao.csv:
+>números da cobertura vacinal nas cinco regiões geográficas brasileira, entre 1994 e 2021;
+*ano_por_uf.csv:
+>números da cobertura vacinal nas 27 unidades federativas do Brasil, entre 1994 e 2021;
+*imuno_por_capital.csv:
+>números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, de todos os agentes imunulógicos pertencentes ao PNI, entre 1994 e 2021;
+*imuno_por_regiao.csv:
+>números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, nas cinco regiões geográficas brasileira;
+*imuno_por_uf.csv:
+>números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, nas 27 unidades federativas do Brasil;
+*morbidade_turbeculose_1995_1997_CID09.csv:
+>número de óbitos por tuberculose, entre 1995 e 1997, utilizando a Lista Estends CID-9;
+*morbidade_turbeculose_1998_2007_CID10.csv:
+>número de óbitos por tuberculose, entre 1998 e 2007, utilizando a Lista Estends CID-10;
+*morbidade_turbeculose_2008_2021_CID10.csv:
+>número de óbitos por tuberculose, entre 2008 e 2021, utilizando a Lista Estends CID-10;
+*morbidade_meningite_1995_1997_CID09:
+>número de óbitos por infecção Meningocócica, entre 1995 e 1997, utilizando a Lista Estends CID-9;
+*morbidade_meningite_1998_2007_CID10.csv:
+>número de óbitos por infecção Meningocócica, entre 1998 e 2007, utilizando a Lista Estends CID-10;
+*morbidade_meningite_2008_2021_CID10.csv:
+>número de óbitos por infecção Meningocócica, entre 2008 e 2021, utilizando a Lista Estends CID-10;
 
 
-## Breve overview sobre a Hepatite
-As hepatites virais são um grave problema de saúde pública no Brasil e no mundo. É uma infecção que atinge o fígado, causando alterações leves, moderadas ou graves. Na maioria das vezes são infecções silenciosas, ou seja, não apresentam sintomas. Entretanto, quando presentes, podem se manifestar como: cansaço, febre, mal-estar, tontura, enjoo, vômitos, dor abdominal, pele e olhos amarelados, urina escura e fezes claras.
-Cristiane Bomfim
+## Hípotese e questões a serem respondidas:
+*A cobertura vacinal ocorre de forma homogênea nas regiões brasileiras?
+*As capitais dos estados brasileiros possuem maior cobertura do seu público alvo comparado com os números do seu Estado e da sua região geográfica?
+*Os agentes imunológicos possuem a mesma cobertura vacinal no país?
+*Quais as enfermidades mais atendidas pelo PNI?
+*A efetiva cobertura do público alvo demonstra queda na mortalidade do números pelas doenças alvo dos imunizantes?
 
-Responsáveis por 1,3 milhão de mortes por ano no mundo, segundo estimativa da OMS (Organização Mundial da Saúde), as hepatites virais são inflamações que aos poucos matam as células do fígado e as transformam em cicatrizes que enrijecem o tecido, chamadas de fibrose. Sem apresentar sintomas, a evolução é, na maioria dos casos, silenciosa. Por isso, muitas vezes é descoberta quando está em estágio avançado, já com o comprometimento da função do fígado, cirrose ou mesmo o câncer. E embora os vírus sejam os principais causadores da hepatite, ela também pode ser resultado do uso de substâncias tóxicas (como alguns remédios), exagero no consumo de álcool e doenças autoimunes, genéticas e metabólicas.
-
-### Tipos de Hepatites:
-<b> Hepatite A:</b>
-Com transmissão fecal-oral, a doença tem grande relação com alimentos e água contaminados e baixos níveis de saneamento básico e higiene. Não há tratamento específico para este tipo de hepatite, mas desde 2014 o Sistema Único de Saúde (SUS) oferece a vacina para crianças com idade a partir de 12 meses que não tiveram contato com o vírus. Sugere-se que aqueles que ainda não possuam anticorpos contra a hepatite A (sorologia positiva), se vacinem.
-
-<b> Hepatite B:</b>
-Classificada como uma infeção sexualmente transmissível, o vírus da Hepatite B (HBV) pode ser adquirido principalmente pelo contato com sangue infectado, sêmen e outros fluidos corporais. Também pode ser transmitido no momento do parto de mães infectadas para bebês ou por meio de transfusões de sangue e agulhas contaminadas no caso de uso de drogas injetáveis ou no momento de produção de tatuagem. Prevista no calendário de vacinação infantil, a vacinação é a principal medida de prevenção contra a hepatite B. Auxiliam na prevenção da doença o sexo seguro, o não compartilhamento de agulhas e objetos pessoais como lâminas de barbear e de depilação.
-
-<b> Hepatite C:</b>
-As formas mais comum de infecção pelo vírus da Hepatite C (VHC) é a exposição a pequenas quantidades de sangue. Isso pode ocorrer pelo uso de drogas injetáveis, práticas de injeção inseguras, transfusão de sangue e, com menos frequência por atividades sexuais que levam à exposição ao sangue. Embora não exista vacina para este tipo de hepatite, a boa notícia é que com tratamento medicamentoso —que tem duração entre 8 a 24 semanas —, mais de 95% dos pacientes são curados. Por isso é importante o diagnóstico precoce, que pode ser feito a partir de exames de sangue de rotina ou no processo de doação de sangue.
-
-<b> Hepatite D:</b>
-provocada pelo vírus HDV, ela só acomete pessoas já infectadas pelo vírus do tipo B. Por isso, a vacinação contra a hepatite B é uma das formas de prevenção. É considerada a forma mais grave das hepatites virais, pois tem progressão rápida para a cirrose e maior risco de evolução para câncer de fígado. O contágio pode ocorrer por relações sexuais com pessoas infectadas sem uso de preservativo, de mãe para filho na gestação ou no parto, pelo compartilhamento de objetos cortantes e seringas, transfusões de sangue e qualquer outro contato com sangue infectado. O tratamento não cura a doença, mas ajudam no controle dos danos causados por ela ao fígado.
+### Conclusão:
+De forma geral, as hipóteses levantadas foram respondias, mostrando que existe um padrão de cobertura entre capitais, estados e regiões, quais os imunos que abrangem a maior parte da população e as enfermidades combatidas mais amplamente. O que podemos tirar de concreto dessa análise é que a cobertura vacinal atinge grande parte do seu público alvo em sua grande maioria, principalmente das vacinas obrigatórias aplicadas aos recém nascidos. O cuidado constante que devemos ter é reforçar a importância da imunização em massa, o combate a desinformação e o acesso ao serviço público de saúde para todos os brasileiros.
 
 ### Referências:
-- https://datasus.saude.gov.br/informacoes-de-saude-tabnet/
-- https://www.uol.com.br/vivabem/noticias/redacao/2020/09/21/mesmo-sendo-diferentes-hepatites-virais-somam-40-mil-casos-no-brasil.htm
-- https://www.saude.pr.gov.br/Pagina/Hepatites-virais
-- https://www.hcfmb.unesp.br/hepatites-virais-uma-epidemia-silenciosa/
+https://www.scielo.br/j/rsp/a/XnZFGhX7bxSHpQwsSQLqbtv/?lang=pt
+https://www.febrasgo.org.br/pt/noticias/item/670-vacinas-pneumococicas-para-quem-
+https://www.saude.mg.gov.br/sarampo
+https://www.hospitalinfantilsabara.org.br/sintomas-doencas-tratamentos/vacina-triplice-bacteriana-tetano-difteria-e-coqueluche-ou-pertussis/#:~:text=Vacina%20Tr%C3%ADplice%20Bacteriana%20(t%C3%A9tano%2C%20difteria,coqueluche%20ou%20pertussis)%20%2D%20Hospital%20Sabar%C3%A1&text=Pacientes%20com%20risco%20alto%20para%20sua%20sa%C3%BAde.&text=Pacientes%20n%C3%A3o%20emergenciais%20com%20risco%20de%20piora%20nas%20pr%C3%B3ximas%20horas.&text=Pacientes%20com%20menor%20risco%20de%20piorar%20nas%20pr%C3%B3ximas%20horas.
+https://portal.fiocruz.br/pergunta/qual-e-funcao-da-vacina-triplice-bacteriana-acelular-do-tipo-adulto-dtpa-ou-dupla-do-tipo
+https://familia.sbim.org.br/vacinas/vacinas-disponiveis/vacina-triplice-bacteriana-acelular-do-tipo-adulto-dtpa
+https://familia.sbim.org.br/vacinas/vacinas-disponiveis/vacina-meningococica-c-conjugada
+https://www.unimed.coop.br/web/guest/viver-bem/saude-em-pauta/meningite-viral-e-bacteriana-sintomas-transmissao-e-vacinas
+https://www.pfizer.com.br/sua-saude/vacinacao/meningite/meningite-meningococica
+https://redetb.org.br/referencia-mundial-conheca-a-historia-do-pni-o-programa-de-imunizacao-brasileiro/
+https://pt.wikipedia.org/wiki/Tuberculose#:~:text=Tuberculose%20%C3%A9%20uma%20doen%C3%A7a%20infeciosa,nesses%20casos%20denominada%20tuberculose%20latente.
+https://familia.sbim.org.br/vacinas/vacinas-disponiveis/vacina-bcg
+https://pebmed.com.br/o-que-e-meningite-meningococica/
+https://familia.sbim.org.br/vacinas/vacinas-disponiveis/vacina-meningococica-c-conjugada
+https://meucalendariodevacinas.com.br/educacao/meningococica-c/
+
