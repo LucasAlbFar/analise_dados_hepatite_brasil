@@ -12,8 +12,11 @@ Abaixo estão os dados utilizados para a análise da cobertura vacinal no Brasil
 
 *ano_por_capital.csv:
 >números da cobertura vacinal nas 27 capitais federais, entre 1994 e 2021;
+
 *ano_por_imuno.csv:
 >números da cobertura vacinal de todos os agentes imunulógicos pertencentes ao PNI, entre 1994 e 2021;
+
+
 *ano_por_regiao.csv:
 >números da cobertura vacinal nas cinco regiões geográficas brasileira, entre 1994 e 2021;
 *ano_por_uf.csv:
@@ -40,9 +43,13 @@ Abaixo estão os dados utilizados para a análise da cobertura vacinal no Brasil
 
 ## Hípotese e questões a serem respondidas:
 *A cobertura vacinal ocorre de forma homogênea nas regiões brasileiras?
+
 *As capitais dos estados brasileiros possuem maior cobertura do seu público alvo comparado com os números do seu Estado e da sua região geográfica?
+
 *Os agentes imunológicos possuem a mesma cobertura vacinal no país?
+
 *Quais as enfermidades mais atendidas pelo PNI?
+
 *A efetiva cobertura do público alvo demonstra queda na mortalidade do números pelas doenças alvo dos imunizantes?
 
 ### Conclusão:
